@@ -18,3 +18,21 @@ Está escrito en Python y es una gran ventaja porque significa que la curva de d
 
 # Clase 3: Creación del proyecto Platzigram / Tu primer Hola, mundo! en Django
 
+```
+django-admin startproject platzigram
+```
+
+en settings.py están las configuraciones del proyecto
+en urls.py está el administrador de rutas
+en wsgi.py está la interfaz que se usa para desplegar el servidor
+manage.py construye una interfaz sobre django-admin
+
+Dentro de cada file vienen notas útiles sobre qué variables hay en ellas y cómo se usan
+
+Para exponer el proyecto en localhost:8080
+
+```
+python manage.py runserver
+```
+
+# Clase 4: El objeto Request
